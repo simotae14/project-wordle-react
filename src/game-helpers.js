@@ -12,7 +12,7 @@ export function checkGuess(guess, answer) {
     return null;
   }
 
-  const guessChars = guess.toUpperCase().split('');
+  const guessChars = guess.value.toUpperCase().split('');
   const answerChars = answer.split('');
 
   const result = [];
